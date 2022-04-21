@@ -14,3 +14,15 @@
     background: #59b65e;
     background: linear-gradient(to top left, #59b65e, #12f3e8);
   }
+
+  .title {
+    font: 36px Arial;
+    letter-spacing: 0.1em;
+    padding: 10px 5px;
+    color: rgba(0, 06, 0, 0.8);
+  }
+  @media only screen and (min-width: 768px) {
+    .title {
+      font: 48px Arial;
+    }
+  }
