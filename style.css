@@ -44,3 +44,38 @@
       border: solid 15px #333;
     }
   }
+
+  .dot {
+    background: red;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: calc(50% - 5px);
+    left: calc(50% - 5px);
+    display: none;
+  }
+  
+  .spire {
+    position: absolute;
+  }
+  
+  .hour {
+    top: calc(50% - 37.5px);
+    left: calc(50% - 2.5px);
+    width: 5px;
+    height: 40px;
+    border-radius: 0 0 5px 5px;
+    background: #333;
+    z-index: 4;
+    transform-origin: 2.5px 37.5px;
+    transition: transform 2s ease;
+  }
+  @media only screen and (min-width: 768px) and (min-height: 540px) {
+    .hour {
+      top: calc(50% - 57.5px);
+      left: calc(50% - 2.5px);
+      width: 5px;
+      height: 60px;
+      transform-origin: 2.5px 57.5px;
+    }
+  }
