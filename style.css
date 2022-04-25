@@ -143,3 +143,18 @@
   .clock:hover > .digit {
     display: block;
   }
+
+  footer {
+    font: 18px Arial;
+    color: rgba(256, 256, 256, 0.8);
+    width: 100vw;
+    padding: 5px;
+  }
+  footer a {
+    color: rgba(0, 0, 0, 0.85);
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: white;
+    text-decoration: underline;
+  }
